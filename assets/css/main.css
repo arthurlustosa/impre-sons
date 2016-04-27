@@ -48,6 +48,61 @@
 		-webkit-text-size-adjust: none;
 	}
 
+
+
+/* Zoom */
+.wrapper {
+	margin-left: 5%;
+	margin: 0 auto;
+	width: 860px;
+}
+
+.drift-demo-trigger {
+	width: 40%;
+	float: left;
+}
+
+.detail {
+	position: relative;
+	width: 55%;
+	margin-left: 5%;
+	float: left;
+}
+
+
+
+.ix-link {
+	display: block;
+	margin-bottom: 3em;
+}
+
+@media (max-width: 900px) {
+	.wrapper {
+		text-align: center;
+		width: auto;
+	}
+
+	.detail, .drift-demo-trigger {
+		float: none;
+	}
+
+	.drift-demo-trigger {
+		max-width: 100%;
+		width: auto;
+		margin: 0 auto;
+	}
+
+	.detail {
+		margin: 0;
+		width: auto;
+	}
+
+	.responsive-hint {
+		display: none;
+	}
+}
+
+
 /* Box Model */
 
 	*, *:before, *:after {
