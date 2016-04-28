@@ -195,6 +195,7 @@
 				});
 
 			}
+			
 
 		// Events.
 			var resizeTimeout, resizeScrollTimeout;
@@ -229,5 +230,6 @@
 				});
 
 	});
+
 
 })(jQuery);

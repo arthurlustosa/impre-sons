@@ -48,7 +48,38 @@
 		-webkit-text-size-adjust: none;
 	}
 
+/* video */
+/* Estilo do .content onde está o conteúdo da página */
+.content {
+ position: relative;
+ top: auto;
+ z-index: 2;
+ margin: 0 auto;
+ max-width: 720px;
+ text-align: center;
 
+}
+
+video {
+  margin: 0;
+  padding: 0;
+}
+
+#video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: ;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity:.55;
+
+}
 
 /* Zoom */
 .wrapper {
