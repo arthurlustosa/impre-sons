@@ -16,7 +16,10 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+
 	}
+
+
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
@@ -81,21 +84,29 @@ video {
 
 }
 
+#pano {
+	text-align: center;
+	background: #585C63;
+}
+
 /* Zoom */
 .wrapper {
-	margin-left: 5%;
-	margin: 0 auto;
-	width: 860px;
+
+
+	width: 530px;
 }
 
 .drift-demo-trigger {
-	width: 100%;
+	width: 300%;
+
 
 }
 
 .detail {
-	position: relative;
-	width: 55%;
+	position: absolute;;
+	margin-left: -375px;;
+	width: 500px;
+	margin: 5%;
 
 }
 
@@ -118,13 +129,13 @@ video {
 
 	.drift-demo-trigger {
 		max-width: 100%;
-		width: auto;
+		width: 800px;
 		margin: 0 auto;
 	}
 
 	.detail {
-		margin: 0;
-		width: auto;
+		margin-left: auto;
+		width: 800px;
 	}
 
 	.responsive-hint {
